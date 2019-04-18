@@ -1,4 +1,4 @@
-## Rails Has and Belongs to Many Relationship
+## Rails Has and Belongs to Many Relationship + Devise Authentication
 
 Let's build a recipes app where a recipe has and belongs to many ingredients and an ingredient has and belongs to many recipes.
 
