@@ -1,0 +1,1 @@
+# rails-has-and-belongs-to-many-to-many-devise
