@@ -56,14 +56,14 @@ Let's build a recipes app where a recipe has and belongs to many ingredients and
   pizza.ingredients.create(name: "pepperoni")
 
   cheese = pizza.ingredients.create(name: "cheese")
-  tomato = pizza.ingredients.create(name: "tomato")
+  mushrooms = pizza.ingredients.create(name: "mushrooms")
 
   grilled_cheese.ingredients << [cheese, tomato]
   ```
 
 1. `rails db:seed`
 1. `rails c`
-1. `pizza = Pizza.last`
+1. `pizza = Recipe.first`
 1. `pizza.ingredients`
 1. `pizza.ingredients.create(name: "peppers")`
 
@@ -71,11 +71,10 @@ Let's build a recipes app where a recipe has and belongs to many ingredients and
 
 ## Create Routes
 
-```rails
+```ruby
 Rails.application.routes.draw do
   root 'recipes#index'
-  resources :recipes
-  resources :ingredients
+  resources :recipes, :ingredients
 end
 ```
 
@@ -180,7 +179,7 @@ end
 
 ## Add Devise
 
-![Devise](http://devise.plataformatec.com.br/)
+[Devise](http://devise.plataformatec.com.br/)
 
 1. Add to `Gemfile`: `gem 'devise'`
 1. `rails generate devise:install`
