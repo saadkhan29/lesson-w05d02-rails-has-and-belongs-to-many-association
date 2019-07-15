@@ -331,7 +331,7 @@ Take a moment review to review and check out the files/folders that were generat
 
 ## You Do
 
-Using this lesson as a guide, create a new app where a `user` has and belongs to many `groups`.
+Using this lesson as a guide, create a new app where a `person` has and belongs to many `groups`.
 
 <br>
 
