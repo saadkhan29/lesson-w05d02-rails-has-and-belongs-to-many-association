@@ -1,4 +1,4 @@
-## Rails Has and Belongs to Many Relationship + Devise Authentication
+## Rails Has and Belongs to Many Relationship
 
 Let's build a recipes app where a recipe has and belongs to many ingredients and an ingredient has and belongs to many recipes.
 
@@ -177,7 +177,11 @@ end
 
 <br>
 
-## Add Devise
+<details>
+<summary>Add Devise</summary>
+	
+<br>
+
 
 [Devise](http://devise.plataformatec.com.br/)
 
@@ -320,6 +324,8 @@ Take a moment review to review and check out the files/folders that were generat
     end
     ```
 
+
+</details>
 
 <br>
 
