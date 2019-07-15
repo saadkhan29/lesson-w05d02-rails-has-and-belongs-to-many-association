@@ -329,6 +329,12 @@ Take a moment review to review and check out the files/folders that were generat
 
 <br>
 
+## You Do
+
+Using this lesson as a guide, create a new app where a `user` has and belongs to many `groups`.
+
+<br>
+
 ## Additional Resources
 
 - [Rails Guides - Has and Belongs to Many](https://guides.rubyonrails.org/association_basics.html#the-has-and-belongs-to-many-association)
