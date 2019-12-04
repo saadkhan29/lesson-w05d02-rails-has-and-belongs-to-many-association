@@ -209,7 +209,8 @@ end
 [Devise](http://devise.plataformatec.com.br/)
 
 1. Add to `Gemfile`: `gem 'devise'`
-1. `rails generate devise:install`
+1. Run Command: `gem install devise`
+1. Run Command: `rails generate devise:install`
 
     ![](https://i.imgur.com/tmAeS1v.png)
 
