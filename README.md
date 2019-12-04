@@ -62,7 +62,7 @@ Let's build a recipes app where a recipe has and belongs to many ingredients and
   ```
   <br>
   Note: Ingredients I should be small
-<br>
+<br><br><br>
 
 1. `rails db:seed`
 1. `rails c`
