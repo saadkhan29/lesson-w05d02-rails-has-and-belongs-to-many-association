@@ -311,6 +311,25 @@ Note: Restart the rails server
 
 1. Create a migration to add `user_id` to a recipe: `rails g migration AddUserIdToRecipes user:references`
 1. `rails db:migrate`
+
+<br><br>
+Note: You may get error of forriegn key or duplicate id 'user_id'. To fix this, exceute: <br>
+rake db:reset <br>
+rails db:migrate <br>
+
+But it will delete all the data as well.<br>
+Run rails db:seed will also not work, becuase now user_id is a part of recipe table.
+
+1. Create a new user again.
+2. Add that user_id in seeds.rb file.
+
+```ruby
+pizza = Recipe.create(name: "Pizza", user_id: 1)
+grilled_cheese = Recipe.create(name: "grilled cheese", user_id: 1)
+```
+
+<br><br><br>
+
 1. Add the associations to models:
 
     ```ruby
