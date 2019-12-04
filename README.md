@@ -61,7 +61,7 @@ Let's build a recipes app where a recipe has and belongs to many ingredients and
   grilled_cheese.ingredients << [cheese, tomato]
   ```
   <br>
-  Note: Ingredients I should be small
+  Note: Ingredients I needs to be small
 <br><br><br>
 
 1. `rails db:seed`
@@ -70,6 +70,23 @@ Let's build a recipes app where a recipe has and belongs to many ingredients and
 1. `pizza.ingredients`
 1. `pizza.ingredients.create(name: "peppers")`
 
+<br>
+Note: Sometimes this happens. Create command works well with some version but may not work with other versions.<br>
+We always have MySQL query to fix this.
+<br>
+<br>
+So, what would be the query?
+<br>
+<br>
+<br>
+<hr>
+```sql
+update recipeapp_development.ingredients 
+SET name = "peppers"
+where id = 
+```
+<br>
+<hr>
 <br>
 
 ## Create Routes
