@@ -6,7 +6,7 @@ Let's build a recipes app where a recipe has and belongs to many ingredients and
 
 ## Create New Rails App
 
-1. `rails new recipe_app -d postgresql`
+1. `rails new recipe_app -d mysql`
 1. `rails g model recipe name`
 1. `rails g model ingredient name`
 1. `rails g migration CreateJoinTableRecipesIngredients recipe ingredient` 
@@ -80,7 +80,7 @@ So, what would be the query?
 <br>
 <br>
 <hr>
-```sql
+```ruby
 update recipeapp_development.ingredients 
 SET name = "peppers"
 where id = 
