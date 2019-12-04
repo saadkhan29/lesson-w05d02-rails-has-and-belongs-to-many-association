@@ -313,7 +313,7 @@ Note: Restart the rails server
 1. `rails db:migrate`
 
 <br><br>
-Note: You may get error of forriegn key or duplicate id 'user_id'. To fix this, exceute: <br>
+Note: You may get error of foreign key or duplicate id 'user_id'. To fix this, exceute: <br>
 rake db:reset <br>
 rails db:migrate <br>
 
