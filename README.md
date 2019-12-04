@@ -80,11 +80,13 @@ So, what would be the query?
 <br>
 <br>
 <hr>
+
 ```ruby
 update recipeapp_development.ingredients 
 SET name = "peppers"
 where id = 
 ```
+
 <br>
 <hr>
 <br>
