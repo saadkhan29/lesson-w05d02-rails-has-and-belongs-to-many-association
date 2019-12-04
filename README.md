@@ -60,6 +60,9 @@ Let's build a recipes app where a recipe has and belongs to many ingredients and
 
   grilled_cheese.ingredients << [cheese, tomato]
   ```
+  <br>
+  Note: Ingredients I should be small
+<br>
 
 1. `rails db:seed`
 1. `rails c`
