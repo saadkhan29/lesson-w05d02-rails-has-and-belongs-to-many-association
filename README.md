@@ -364,3 +364,4 @@ Using this lesson as a guide, create a new app where a `person` has and belongs 
 - [Rails Guides - Has and Belongs to Many](https://guides.rubyonrails.org/association_basics.html#the-has-and-belongs-to-many-association)
 - [Collection Check Boxes Helper](https://apidock.com/rails/ActionView/Helpers/FormOptionsHelper/collection_check_boxes)
 - [Devise](http://devise.plataformatec.com.br/)
+- [Devise](https://guides.railsgirls.com/devise)
