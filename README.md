@@ -272,7 +272,8 @@ Note: Restart the rails server
 <body>
         <%= render 'layouts/nav' %>
         <%= yield %>
-		</body>```
+		</body>
+```
 
 <br>
 
